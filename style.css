@@ -3,12 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #eeeeef;
-    height: 100vh;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
+    height: 100%;
 }
 
 #paywall {
@@ -24,6 +19,7 @@ body {
     background-color: #3a3a39;
     color: white;
     margin-top: auto;
+    height: 100%;
 }
 
 #checkout-btn {
