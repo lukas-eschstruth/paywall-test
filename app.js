@@ -1,4 +1,4 @@
-const checkoutBtnId = 'checkoutBtn';
+const checkoutBtnId = 'checkout-btn';
 
 const ppp = PAYPAL.apps.PPP({
     "approvalUrl": "https://www.sandbox.paypal.com/checkoutnow?token=6VH52758FV646041B",

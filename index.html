@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Proof of Concept</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://www.paypalobjects.com/webstatic/ppplus/ppplus.min.js" type="text/javascript">
     </script>
     <script src="app.js" defer></script>
@@ -12,7 +13,10 @@
 
 <body>
     <div id="paywall"></div>
-    <button id="checkoutBtn">Checkout Now</button>
+    <section class="chekout">
+        <p>Gesamtsumme: <span id="amount">0</span> €</p>
+        <button id="checkout-btn">Checkout Now</button>
+    </section>
 </body>
 
 </html>
